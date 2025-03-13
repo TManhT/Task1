@@ -62,4 +62,9 @@ header {
   color: var(--text-color);
   font-size: 1rem;
   text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar a:hover {
+  color: var(--main-color);
+  border-bottom: 3px solid var(--main-color);
 }
